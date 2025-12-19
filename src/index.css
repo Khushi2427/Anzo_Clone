@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  /* font-family: gilroy; */
+}
+html,
+body {
+   height: 100%;
+   width: 100%;
+}
+#page-1-in{
+  position: relative;
+  perspective: 1000px;
+}
+.section1{
+  position: relative;
+  perspective: 1200px;
+}
+#tiltdiv{
+  /* position: relative; */
+  /* perspective: 1200px; */
+  width:fit-content;
+}
+
+@font-face {
+  font-family: khu;
+  src: url(./assets/file.woff2)
+}
+@font-face {
+  font-family: shi;
+  src: url(./assets/font1.woff2)
+}
+@font-face {
+  font-family: Gup;
+  src: url(./assets/file\ \(1\).woff2)
+}
+.section2{
+  transform-origin: 100% 70%;
+}
+.section4{
+  position: relative;
+  perspective: 1200px;
+}
+.section3{
+  transform-origin: 100% 70%;
+}
